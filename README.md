@@ -6,6 +6,8 @@
 
 **Changes required before run the application:**
 
+Note: Clone the repository or download it
+
 **1.	Database**
    
     •	Execute below scripts to create the database and table. 
@@ -35,7 +37,7 @@
     **Navigate to the project folder and run:**
     •	npm install 
     •	Update the Web API URL in todov1\src\App.js with the port of web api
-    apiUrl = "https://localhost:xxxx/api/Todos"
+            apiUrl = "https://localhost:xxxx/api/Todos"
     •	Npm start
 
 **Screenshots**
