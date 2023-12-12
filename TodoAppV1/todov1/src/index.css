@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65.5%;
+  color: #0d0c0c;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.app {
+  max-width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+  font-size: 8rem;
+}
+
+.todoform {
+  background-color: #b87676;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todoform button {
+  margin-top: 10px;
+  width: 60px;
+}
+
+.formcontainer,
+.statuscontainer {
+  margin: 5px;
+}
+
+.listcontainer {
+  background-color: #cfb0b0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.status {
+  text-align: center;
+}
+
+.status button {
+  width: 60%;
+  background-color: #b87676;
+}
+
+.status button:hover {
+  background-color: #b87676;
+}
+
+.btn {
+  color: #f7f7f7;
+}
+
+.action {
+  margin: 10px;
+}
+
+.error {
+  color: #b31d33;
+}
+
+.active {
+  background-color: #875858 !important;
+  color: #f7f7f7 !important;
+}
+
+table.table.table-striped tr.overdue td {
+  background-color: #c25b5b;
+}
+
+.note {
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+.message {
+  text-align: center;
+}
