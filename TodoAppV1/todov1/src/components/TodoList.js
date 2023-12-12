@@ -94,6 +94,7 @@ export default function TodoList({
 
 function Item({ item, onDeleteTodo, onToggleTodo, onEditTodo }) {
   const givenDate = new Date(item.dueDate);
+  givenDate.setHours(23, 59, 59, 999);
   const currentDate = new Date();
 
   const overDue = givenDate < currentDate ? true : false;
